@@ -1,0 +1,13 @@
+{
+  "name": "astrobox-plugin-template-js",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "package": "node scripts/build.mjs --package"
+  },
+  "dependencies": {
+    "@bytecodealliance/componentize-js": "github:AstralSightStudios/ComponentizeJS#astrobox/async-func-support"
+  }
+}
